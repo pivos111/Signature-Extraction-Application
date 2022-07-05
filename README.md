@@ -1,2 +1,3 @@
 # Signature-Extraction-Application
-Project for Masters Degree
+
+APP VERSION: only run the .exe file
