@@ -12,7 +12,7 @@ try:
     cursor.close()
 
 except mysql.connector.Error as error:
-    print("Failed to insert record into signatures table {}".format(error))
+    print("Failed to insert record into signatures signatures {}".format(error))
 
 finally:
     if connection.is_connected():
@@ -21,7 +21,7 @@ finally:
 
 try:
     connection = mysql.connector.connect(host="localhost",
-                                         database='test',
+                                         database='signatures',
                                          user="root",
                                          password="")
 
